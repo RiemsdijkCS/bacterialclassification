@@ -1,0 +1,95 @@
+Sheet 1,Study population F: Subject Metadata,Unnamed: 2
+,Subject ID,Subject identifier
+,Sample ID,Sample identifier
+,Age (years),Age (in years)
+,Gender,Gender: F (female) or M (male)
+,BMI (kg/m²),Body Mass Index (in kg/m²)
+,Country of Residence,Country of residence 
+,Diagnosis,"Diagnosis at colonoscopy: Normal (tumor-free), Small adenoma <10 mm diameter), Large adenoma (10 mm diameter), Cancer"
+,TNM Stage,TNM stage of the tumor
+,AJCC Stage,AJCC stage of the tumor; NA: no classification for healthy controls or adenomas 
+,Localization,"Localization of the tumor/adenoma: RC (Right Colon), LC (Left Colon), LC/RC (Multiple localizations), Sigma (Sigma), Rectum (Rectum)"
+,FOBT,Result of the FOBT (Fecal Occult Blood Test)
+,WIF-1 Gene Methylation Test,Result of the wif-1 gene methylation test
+,Group: ,"Samples included for the establishment of the metagenomic classifier, Control: healthy controls and patients with small adenomas, CRC: patients with CRC, NA: Patients (with large adenoma) not included"
+,,
+Sheet 2,Study population F: Sequencing Statistics,
+,Sample ID,Sample identifier
+,Raw Bases,Total number of sequenced nucleotides 
+,Raw Reads,Total number of sequenced reads 
+,High Quality Bases,"Total number of high quality nucleotides after read trimming, read filtering, and removal of reads of human origin or matching Illumina adapter sequences"
+,High Quality Reads,"Total number of high quality reads after read trimming, read filtering, and removal of reads of human origin or matching Illumina adapter sequences"
+,Average Read Length,Average length of high quality reads 
+,Scaftigs,Total number of assembled contigous sequences that are longer than 500 base pairs; NA: These samples were not assembled
+,Total Scaftig Length,Combined length of all scaftigs assembled; NA: These samples were not assembled
+,Genes,Total number of genes predicted; NA: These samples were not assembled
+,Total Gene Length,Combined length of all genes; NA: These samples were not assembled
+,,
+,,
+Sheet 3,Study population G: Subject Metadata,
+,Subject ID,Subject identifier
+,Sample ID,Sample identifier
+,Age (years),Age (in years)
+,Gender,Gender: female (F) or male (M)
+,BMI (kg/m²),Body Mass Index (in kg/m²)
+,Country of residence,Country of residence 
+,Diagnosis,Diagnosis at colonoscopy
+,AJCC stage,TNM classification of the tumor
+,TNM stage,AJCC stage of the tumor; NA: no classification for healthy controls or adenomas 
+,Localization,"Localization of the tumor/adenoma: RC (Right Colon), LC (Left Colon), LC/RC (Multiple localizations), Sigma (Sigma), Rectum (Rectum)"
+,,
+,,
+Sheet 4,Study population G: Sequencing Statistics,
+,Sample ID,Sample identifier
+,Raw Bases,Total number of sequenced nucleotides 
+,Raw Reads,Total number of sequenced reads 
+,High Quality Bases,"Total number of high quality nucleotides after read trimming, read filtering, and removal of reads of human origin or matching Illumina adapter sequences"
+,High Quality Reads,"Total number of high quality reads after read trimming, read filtering, and removal of reads of human origin or matching Illumina adapter sequences"
+,Average Read Length,Average length of high quality reads 
+,,
+,,
+Sheet 5,Study population H: Subject Metadata,
+,Subject ID,Subject identifier
+,Sample ID,Sample identifier
+,Age (years),Age (in years)
+,Gender,Gender: female (F) or male (M)
+,BMI (kg/m²),Body Mass Index (in kg/m²)
+,Country of residence,Country of residence 
+,Reference,Publication of data
+,,
+,,
+Sheet 6,Study population H: Sequencing Statistics,
+,Sample ID,Sample identifier
+,Raw Bases,Total number of sequenced nucleotides 
+,Raw Reads,Total number of sequenced reads 
+,High Quality Bases,"Total number of high quality nucleotides after read trimming, read filtering, and removal of reads of human origin or matching Illumina adapter sequences"
+,High Quality Reads,"Total number of high quality reads after read trimming, read filtering, and removal of reads of human origin or matching Illumina adapter sequences"
+,Average Read Length,Average length of high quality reads 
+,Scaftigs,Total number of assembled contigous sequences that are longer than 500 base pairs
+,Total Scaftig Length,Combined length of all scaftigs assembled 
+,Genes,Total number of genes predicted 
+,Total Gene Length,Combined length of all genes
+,,
+,,
+Sheet 7,IBD Patients: Subject Metadata,
+,Subject ID,Unique identifier of the study participant
+,Sample ID,Unique identifier of the sequenced sample from the study participant with the respective Subject ID
+,Age (years),Age (in years)
+,Gender,Gender: female (F) or male (M)
+,BMI (kg/m²),Body Mass Index (in kg/m²)
+,Country of residence,Country of residence 
+,Diagnosis,Diagnosed inflammatory bowel disease
+,Reference,Publication of data
+,,
+,,
+Sheet 8,IBD Patients: Sequencing Statistics,
+,Sample ID,Sample identifier
+,Raw Bases,Total number of sequenced nucleotides 
+,Raw Reads,Total number of sequenced reads 
+,High Quality Bases,"Total number of high quality nucleotides after read trimming, read filtering, and removal of reads of human origin or matching Illumina adapter sequences"
+,High Quality Reads,"Total number of high quality reads after read trimming, read filtering, and removal of reads of human origin or matching Illumina adapter sequences"
+,Average Read Length,Average length of high quality reads 
+,Scaftigs,Total number of assembled contigous sequences that are longer than 500 base pairs
+,Total Scaftig Length,Combined length of all scaftigs assembled 
+,Genes,Total number of genes predicted 
+,Total Gene Length,Combined length of all genes
