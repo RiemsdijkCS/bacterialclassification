@@ -5,15 +5,14 @@ import matplotlib.pyplot as plt
 path_to_file = "../supdata/supdata_f_metadata.csv"
 data = pd.read_csv(path_to_file, encoding='utf-8')
 
-# Print de data van de diagnosis van de datagroep
-# print(data.Diagnosis)
-a = data.Diagnosis.value_counts(sort='true')
-
-
+#Set de x en y waarden
+x = ['Normal', 'Small Adenoma', 'Large Adenoma', 'Cancer' ]
+y = data.Diagnosis.value_counts(sort='true')
 
 
 # Maakt een grafiek van de diagnosis
-plt.bar(a, height='20')
-
+plt.bar(x,height=y, width=0.8, )
+plt.xlabel('Diagnosis')
 plt.ylabel('Aantal')
+plt.title('Diagnosis datagroep F')
 plt.show()
