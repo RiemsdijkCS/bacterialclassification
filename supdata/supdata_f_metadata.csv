@@ -1,4 +1,4 @@
-SubjectID,SampleID,Age,Gender,BMI (kg/m²),Country of Residence,Diagnosis,TNM Stage,AJCC Stage,Localization,FOBT,WIF-1 Gene Methylation Test,Group
+SubjectID,SampleID,Age,Gender,BMI,Country of Residence,Diagnosis,TNM,AJCC Stage,Localization,FOBT,WIF-1 Gene Methylation Test,Group
 FR-001,CCIS27304052ST-3-0,52,F,20.0,France,Normal,,,,Negative,Negative,Control
 FR-003,CCIS13047523ST-4-0,70,M,22.0,France,Normal,,,,Negative,Negative,Control
 FR-024,CCIS15794887ST-4-0,37,F,18.0,France,Normal,,,,Negative,Negative,Control
